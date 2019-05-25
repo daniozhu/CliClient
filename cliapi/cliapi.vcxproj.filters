@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="clipktparser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cliprocessor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="errdefs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="machineinfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="sessionmgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpsocket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpthread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cliapihelper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clipktparser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="cliprocessor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="errdefs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="machineinfo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="notifymsg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="parsepacket.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="sessionmgr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpsocket.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpthread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="cliapihelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8f6b7bda-9509-4c36-8ff1-db563b7c0768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cliapi.rc">
+      <Filter>src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
